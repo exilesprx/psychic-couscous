@@ -1,0 +1,8 @@
+services:
+
+  proxy:
+    image: exilesprx/proxy:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: build
