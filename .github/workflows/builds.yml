@@ -19,5 +19,5 @@ jobs:
 
       - name: Image for build
         run: |
-          docker compose -f docker-compose.build.yml build --pull build
-          docker compose -f docker-compose.build.yml push build
+          docker compose -f docker-compose.build.yml build --pull proxy
+          docker compose -f docker-compose.build.yml push proxy
