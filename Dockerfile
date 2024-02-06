@@ -1,3 +1,3 @@
-FROM haproxy:2.9.3-alpine AS build
+FROM haproxy:2.9.4-alpine AS build
 
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
